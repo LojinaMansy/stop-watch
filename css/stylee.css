@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(45deg,#f2f3e2,#b2e5f8,#f4b3ef);
+    height:100vh
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: #12243f;
+    margin-top: 50px;
+}
+h2{
+    color: white;
+    margin-top: 50px;
+}
+span{
+    color: white;
+    font-size: 50px;  
+}
+button{
+    border: none;
+    color:  #12243f;
+    background-color: #b8e9d4;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
+}
